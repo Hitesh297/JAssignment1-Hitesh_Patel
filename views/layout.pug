@@ -1,0 +1,47 @@
+doctype html
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="/css/styles.css")
+    script(src="/js/script.js") 
+    title Phone Prints
+  body 
+    header
+      #main-header
+        #header-left 
+          #logo 
+            a(href="/") 
+              h2 Phone Prints
+          nav#main-navigation
+            ul 
+              li 
+                a(href="/") HOME 
+              li 
+                a(href="/") PRODUCTS
+        #header-right  
+          ul#profile-items 
+              li 
+                a(href="/")#profile
+                  img(src="https://img.icons8.com/cotton/64/000000/gender-neutral-user--v2.png", alt="image of an outline of a user") 
+                  span Profile 
+              li 
+                a(href="/")#wishlist 
+                  img(src="https://img.icons8.com/cotton/64/000000/like--v1.png", alt="small picture of a red heart")
+                  span Wishlist 
+              li 
+                a(href="/")#bag 
+                  img(src="https://img.icons8.com/cotton/64/000000/shopping-cart--v2.png", alt="image of an outline of a shopping cart")
+                  span Bag
+      nav#mobile-nav
+        ul 
+          li 
+            a(href="/") HOME 
+          li 
+            a(href="/") PRODUCTS
+    main 
+      block layout-content
+    footer 
+      span  © 2022 Phone Prints Pvt. Ltd. 
