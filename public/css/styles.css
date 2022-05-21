@@ -244,6 +244,85 @@ h3 {
     padding-top: 4px;
 }
 
+/* BUY PAGE STYLES */
+
+#buy-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#buy-container li {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.buy-image {
+    text-align: center;
+    background:#e5e5e5;
+}
+
+.buy-description ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px;
+    gap: 20px;
+}
+
+#buy-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+#buy-rate {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#add-to-cart {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-family: 'Koulen', cursive;
+    background-color: #20a87e;
+    color: white;
+    font-size: 21px;
+}
+
+.offer {
+    font-family: 'Koulen', cursive;
+    color: red;
+    font-size: 20px;
+}
+
+dt {
+    background-color: rgb(224, 224, 224);
+    height: 44px;
+    line-height: 44px;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: 'Koulen', cursive;
+}
+
+dd {
+    display: none;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+dt span {
+    float: right;
+    padding-right: 18px;
+    font-size: 25px;
+}
+
 footer {
     background-color: black;
     padding: 30px;

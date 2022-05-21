@@ -17,6 +17,10 @@ app.get("/products", (request, response) => {
     response.render("products", { title: "Products" });
 });
 
+app.get("/buyproduct", (request, response) => {
+    response.render("buyproduct", { title: "Buy Product" });
+});
+
 app.listen(port, () => {
     console.log(`Listening on http://localhost:${port}`);
 })

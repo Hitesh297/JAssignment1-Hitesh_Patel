@@ -1,4 +1,4 @@
-window.onload = function () {
+jQuery(document).ready(function () {
     
     var splashImage = document.getElementById('splash-image');
     var imageCounter = 1;
@@ -10,5 +10,12 @@ window.onload = function () {
         }
     }
 
-    setInterval(changeSplashImage,10000);
-};
+    if (splashImage != null) {
+        setInterval(changeSplashImage,3000); 
+    }
+
+    $('dt').click(function(){
+		$(this).next('dd').slideToggle();
+	});
+    
+});
