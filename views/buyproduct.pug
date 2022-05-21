@@ -3,7 +3,8 @@ extends layout
 block layout-content
     ul#buy-container 
       li.buy-image 
-        img(src="/images/phone5.webp", alt="")
+        //- https://www.dailyobjects.com/apple/iphone-13-cases/lp?f=b~apple,cid~1101,m~iphone-13
+        img(src="/images/phone6.webp", alt="")
       li.buy-description
         ul 
           li 
@@ -19,6 +20,8 @@ block layout-content
             span.offer FREE WALLET/DUFFLE BAG ON ORDERS WORTH $100
           li
             #pin-code
+              input(type="text", placeholder="Enter Pincode To Check Delivery")
+              #check-pin CHECK
           li 
             dl 
               dt Product Details
@@ -28,23 +31,28 @@ block layout-content
               dt Specifications
                 span +
                 dd 
-                  p 
+                  span 
                     strong MATERIAL: 
                     | Polycarbonate, Thermoplastic Polyurethane (TPU)
-                  p 
-                    strong PACKAGE CONTENTS:
+                    br
+                  span 
+                    strong PACKAGE CONTENTS: 
                     | 1 x Stow Phone Case Cover, 1 x Complementary Sim ejector pin
-                  p 
+                    br
+                  span 
                     strong CARE: 
                     | Wipe the case clean with a mildly dampened, non abrasive cloth.
+                    br
               dt Delivery & Returns
                 span +
                 dd 
-                  p Delivery
-                  p Dispatch to Courier in 2-3 Days.
-                  p Eligible for Cash on Delivery
-                  p FREE SHIPPING
-                  p Shipping is free for all prepaid orders above Rs.749.
-                  p A charge of Rs.49 is applied to all Prepaid orders below Rs.749.
-                  p CASH ON DELIVERY
-                  p Rs.99 extra charges for all Cash On Delivery orders.
+                  strong Delivery
+                  span Dispatch to Courier in 2-3 Days.
+                  span Eligible for Cash on Delivery
+                  br
+                  strong FREE SHIPPING
+                  span Shipping is free for all prepaid orders above $20.
+                  span A charge of ¢50 is applied to all Prepaid orders below $20.
+                  br
+                  strong CASH ON DELIVERY
+                  span $5 extra charges for all Cash On Delivery orders.

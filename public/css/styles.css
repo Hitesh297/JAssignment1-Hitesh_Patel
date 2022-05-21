@@ -322,6 +322,11 @@ h3 {
     background-color: #20a87e;
     color: white;
     font-size: 21px;
+    cursor: pointer;
+}
+
+#add-to-cart:active {
+    background-color: #197f5f;
 }
 
 .offer {
@@ -337,6 +342,7 @@ dt {
     padding-left: 20px;
     margin-top: 20px;
     font-family: 'Koulen', cursive;
+    cursor: pointer;
 }
 
 dd {
@@ -352,6 +358,40 @@ dt span {
     padding-right: 18px;
     font-size: 25px;
 }
+
+dd span {
+    display: block;
+}
+
+#pin-code input {
+    width: 96%;
+    background: #edecec;
+    border: none;
+    padding: 13px;
+    font-size: 14px;
+}
+
+#pin-code {
+    display: flex;
+}
+
+#check-pin {
+    background-color: #b5b5b5;
+    padding: 7px;
+    line-height: 29px;
+    vertical-align: middle;
+    font-family: 'Koulen', cursive;
+    width: 64px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#check-pin:active {
+    background-color: #909090;
+}
+
+/* STYLING FOR FOOTER */
+
 
 footer {
     background-color: black;
