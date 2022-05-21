@@ -440,5 +440,9 @@ footer span {
     #product-list {
         padding: 0 2px 0 2px;
     }
+
+    #buy-container {
+        margin-top: 127px;
+    }
     
 }
