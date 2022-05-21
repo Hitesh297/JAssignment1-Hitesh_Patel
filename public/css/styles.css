@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Montserrat:wght@400;500&display=swap');
 
 body {
     margin: 0;
@@ -24,6 +24,7 @@ header {
     font-family: 'Lobster', cursive;
     color: #F76F8E;
     padding-left: 15px;
+    min-width: 132px;
 }
 
 #logo a {
@@ -39,6 +40,7 @@ header {
     text-decoration: none;
     font-family: 'Koulen', cursive;
     color: #96616B;
+    font-size: 17px;
 }
 
 #mobile-nav ul {
@@ -75,6 +77,7 @@ header {
     text-align: center;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 0;
 }
 
 #profile-items img {
@@ -151,6 +154,33 @@ header {
     color: black;
 }
 
+.item-description {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.item-rate {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-weight: 500;
+    color: gray;
+    padding-left: 8px;
+}
+
+.discount {
+    font-family: 'Koulen', cursive;
+    color: red;
+    margin-top: 0;
+}
+
 footer {
     background-color: black;
     padding: 30px;
@@ -185,10 +215,14 @@ footer span {
         justify-content: center;
     }
     
-.new-release-item {
-    max-width: 45%;
-    min-width: 45%;
-    flex-grow: 1;
-}
+    .new-release-item {
+        max-width: 45%;
+        min-width: 45%;
+        flex-grow: 1;
+    }
+
+    #new-release {
+        padding: 0 2px 0 2px;
+    }
     
 }
