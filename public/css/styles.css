@@ -204,7 +204,7 @@ h3 {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    padding: 0;
+    padding: 10px;
 }
 
 #product-categories span {
@@ -268,6 +268,10 @@ footer span {
 
     .splash {
         margin-top: 128px;
+    }
+
+    .products-header {
+        margin-top: 141px;
     }
 
     .splash a {
