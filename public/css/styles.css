@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    
+    background-color: #FFEAD0;
     position: fixed;
     right: 0;
     left: 0;
@@ -13,11 +13,15 @@ header {
     z-index: 1;
 }
 
+.page-container {
+    max-width:1500px;
+    margin:0 auto;
+}
+
 #main-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #FFEAD0;
 }
 
 #logo h2 {
@@ -71,7 +75,7 @@ header {
 #profile-items {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     padding-right: 30px;
     list-style: none;
     text-align: center;
@@ -115,10 +119,9 @@ header {
     font-size: larger;
 }
 
-
-.page-container {
-    max-width:1400px;
-    margin:0 auto;
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
 }
 
 #new-release {
