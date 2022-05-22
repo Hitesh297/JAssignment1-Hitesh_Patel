@@ -47,6 +47,10 @@ header {
     font-size: 17px;
 }
 
+#main-navigation a:hover {
+    color: #F76F8E;
+}
+
 #mobile-nav ul {
     display: none;
     margin: 0;
